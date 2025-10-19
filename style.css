@@ -1,9 +1,54 @@
-body{
- margin: 10px;
- background-color: #F5EFE6;
- font-family: 'Lucida Console', Monaco, Arial;
+:root{
+    --white-off: #F5EFE6;
+    --tan: #E8DFCA;
+    --blue-med: #6D94C5;
+    --blue-dark: #045499;
 }
 
-.title{
-    text-align: center;
+body{
+ margin: 10px;
+ background-color: var(--white-off);
+ font-family: 'Lucida Console', Monaco, Arial;
+ font-size: 24px;
+ text-align: center;
+}
+
+a{
+    float: left;
+    line-height: 2;
+}
+
+p, ul, ol{
+    background-color: var(--tan);
+}
+
+p{
+    padding: 10px;
+}
+
+h1{
+    color: var(--blue-dark);
+}
+
+h3{
+    color: var(--blue-med);
+}
+
+ul, ol{
+    padding: 20px 40px;
+    margin-right: auto;
+    display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ol{
+    line-height: 1.8;
+}
+
+img{
+    display: block;
+    margin: auto;
 }
